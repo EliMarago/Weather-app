@@ -8,7 +8,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
+
 const API_KEY = "490b8a9390bf7bc401d03f00b608995f";
 
 app.use(express.static(path.join(__dirname, "public")));
