@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Sanchez:ital@0;1&display=swap");
+
+body {
+  background-size: cover;
+}
+
+.container {
+  width: 500px;
+  height: 670px;
+  background-color: rgb(245, 238, 238);
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 70px;
+  border-radius: 20px 20px 20px;
+  border: solid 4px rgba(71, 71, 71, 0.367);
+}
+.container.scattered-clouds {
+  background-color: #9ecad6ba;
+}
+.container.clear-sky {
+  background-color: #60bfff5e;
+}
+.container.few-clouds {
+  background-color: #68a7e2a7;
+}
+.container.broken-clouds {
+  background-color: #d7d7d79f;
+}
+.container.shower-rain {
+  background-color: #183b4e82;
+}
+.container.rain {
+  background-color: #12345893;
+}
+.container.thunderstorm {
+  background-color: #3c3d37b9;
+}
+.container.snow {
+  background-color: #eeeeee9f;
+}
+.container.mist {
+  background-color: #dddddd91;
+}
+.container.clear-sky .container.clear-sky .map-pin {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.map-pin {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.location {
+  margin-left: 70px;
+  margin-top: -30px;
+  font-size: 22px;
+  font-weight: 900;
+  color: rgb(247, 247, 247);
+  font-weight: 400;
+  font-family: "Sanchez", serif;
+  letter-spacing: 2.5px;
+}
+
+.sun-icon {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 25px;
+  margin-left: 120px;
+}
+
+.container-2 {
+  background-color: rgba(255, 255, 255, 0.313);
+  width: 310px;
+  height: 290px;
+  margin-left: 15%;
+  border-radius: 30px 30px 30px;
+  border: solid rgba(244, 245, 248, 0.584) 3px;
+}
+.date {
+  font-size: 22px;
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(255, 255, 255);
+  font-family: "Sanchez", serif;
+  font-weight: 700;
+}
+.grades {
+  color: rgb(247, 247, 247);
+  text-align: center;
+  font-size: 65px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+}
+.weather {
+  color: rgba(241, 241, 241, 0.919);
+  text-align: center;
+  font-size: 23px;
+  margin-top: -20px;
+  letter-spacing: 2px;
+  font-family: "Sanchez", serif;
+}
+
+.wind {
+  margin-left: 90px;
+  margin-top: -30px;
+  color: rgb(247, 247, 247);
+  font-family: "Josefin Sans", sans-serif;
+}
+.bi-wind {
+  width: 30px;
+  margin-left: 50px;
+  height: 40px;
+}
+.km {
+  color: rgb(247, 247, 247);
+  margin-left: 150px;
+  margin-top: -40px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.bar {
+  background-color: white;
+  width: 1px;
+  height: 65px;
+  border: 1px solid white;
+  margin-left: 140px;
+  margin-top: -75px;
+}
+.bi.bi-droplet-half {
+  margin-bottom: -65px;
+  margin-left: -30px;
+  height: 40px;
+  width: 20px;
+}
+.humid {
+  margin-left: 85px;
+  margin-top: -10px;
+  color: rgb(247, 247, 247);
+  font-family: "Josefin Sans", sans-serif;
+}
+.percent {
+  margin-left: 154px;
+  margin-top: -40px;
+  color: rgb(247, 247, 247);
+  font-family: "Josefin Sans", sans-serif;
+}
